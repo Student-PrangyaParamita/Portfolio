@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
     return (
-        <div className="mx-auto w-full max-w-7xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
+        <div className="mx-auto max-xl:w-screen w-screen max-w-7xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...">
             <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
                 <div className="relative z-10 max-w-screen-xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
                     <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
@@ -55,9 +55,9 @@ function Home() {
             </div>
 
             {/* Skills */ }
-            <h2 className="text-4xl font-bold text-white text-center mb-15 mt-8">Skills</h2>
+            <h2 className="text-4xl font-bold text-white text-center lg:mb-15 md-10 mt-8">Skills</h2>
             <div className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... p-10 mb-40">
-                <div className="grid grid-cols-10 gap-10 ...">
+                <div className="grid xl:grid-cols-10 lg:grid-cols-6 gap-10 ... grid-cols-3 md:grid-cols-5">
                     <div className="items-center p-1 drop-shadow-2xl shadow-2xl rounded-3xl border-gray-300 border-4 bg-red-500">
                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" className="w-20 h-20" />
                     </div>
@@ -97,7 +97,7 @@ function Home() {
 
             {/* Projects */ }
             <h2 className="text-4xl font-bold text-white text-center mb-7 mt-8">Projects</h2>
-            <div class="grid grid-cols-3 gap-10 m-10">
+            <div class="grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 gap-10 m-10">
                 <div className="container mx-auto flex flex-col items-center justify-center p-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...  drop-shadow-2xl shadow-2xl rounded-3xl border-gray-300 border-4">
                     <div>
                         <img
@@ -216,7 +216,7 @@ function Home() {
                 <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
                     <div className="overflow-hidden">
                         <div className="grid grid-cols-1 md:grid-cols-2">
-                            <div className="p-6 mr-2 bg-gray-100 sm:rounded-lg">
+                            <div className="p-6 mr-2 bg-gray-100 sm:rounded-lg m-2">
                                 <h1 className="text-3xl sm:text-4xl text-gray-800 font-extrabold tracking-tight">
                                     Get in touch:
                                 </h1>
@@ -311,7 +311,7 @@ function Home() {
                                     />
                                 </div>
 
-                                <div className="flex flex-col mt-2">
+                                <div className="flex flex-col mt-2 sm:mr-2">
                                     <label for="email" className="hidden">
                                         Email
                                     </label>
@@ -324,7 +324,7 @@ function Home() {
                                     />
                                 </div>
 
-                                <div className="flex flex-col mt-2">
+                                <div className="flex flex-col mt-2 sm:mr-2">
                                     <label for="tel" className="hidden">
                                         Number
                                     </label>

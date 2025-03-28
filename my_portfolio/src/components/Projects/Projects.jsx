@@ -2,7 +2,7 @@ import React from "react";
 
 function Projects() {
   return (
-    <div class="grid grid-cols-3 gap-10 m-10">
+    <div class="grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 gap-10 m-10">
       <div className="container mx-auto flex flex-col items-center justify-center p-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...  drop-shadow-2xl shadow-2xl rounded-3xl border-gray-300 border-4">
         <div>
             <img

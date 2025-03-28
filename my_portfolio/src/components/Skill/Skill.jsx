@@ -3,7 +3,7 @@ import React from "react";
 function Skill() {
   return (
     <div className="h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... p-10">
-      <div className="grid grid-cols-10 gap-10 ...">
+      <div className="grid xl:grid-cols-10 lg:grid-cols-6 grid-cols-3 md:grid-cols-5 gap-10 ...">
         <div className="items-center p-1 drop-shadow-2xl shadow-2xl rounded-3xl border-gray-300 border-4 bg-red-500">
           <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" className="w-20 h-20" />
         </div>
